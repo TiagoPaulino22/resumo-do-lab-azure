@@ -8,5 +8,5 @@ Em todos os serviços, são mostrados os serviços por categoria, que inclui, en
 •	Bancos de dados </br>
 •	Computação </br>
 •	Contêiners </br>
-Em todos os serviços/rede pode ser acessado o <b> Bastions </b> , que é uma rede segura para fazer acesso às máquinas (Jump Server). </br>
+Em todos os serviços/rede, pode ser acessado o <b> Bastions </b> , que é uma rede segura para fazer acesso às máquinas (Jump Server). </br>
 Os serviços em versão prévia são aqueles que estão começando a ser disponibilizados e testados, eles não têm SLA(acordo de nível de serviço)
