@@ -22,37 +22,6 @@ Em todos os serviços/rede, pode ser acessado o **Bastions**, que é uma rede se
 Os serviços em versão prévia são aqueles que estão começando a ser disponibilizados e testados, eles não têm SLA(acordo de nível de serviço)
 
 #### 2. Resumo do laboratório 2: Criando máquinas virtuais Azure 
-fdffff
-ff
-fq
-ff
-f
-f\
-f/
-f/
-f
-f\
-
-f/\
-f/
-f\
-f
-f
-f/
-f/\
-f
-f
-f
-f/\
-f/
-f\
-f
-f/\
-f
-f/
-f
-f
-
 
 #### 3. Resumo do laboratório 3: Configurando uma instância de banco de dados Azure 
 
