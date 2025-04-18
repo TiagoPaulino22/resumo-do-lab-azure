@@ -1,4 +1,4 @@
-# Resumos dos Laboratórios Azure
+# 📖 Resumos dos Laboratórios Azure
 ### Este repositório contém o resumo das lições aprendidas sobre Microsoft Azure durante o desenvolvimento dos labobarórios na DIO. 
 
 ## Sumário
@@ -10,7 +10,7 @@
 [5. Resumo do laboratório 5: Consfigurando Recursos e Dimensionamentos em Máquinas Virtuais na Azure](#5.-Resumo-do-laboratório-5:-Consfigurando-recursos-e-dimensionamentos-em-máquinas-virtuais-na-Azure )</br>
 
 
-#### 1. Resumo do laboratório 1: Localizando serviços por categoria
+### 1. Resumo do laboratório 1: Localizando serviços por categoria
 Foi acessado o portal da Microsoft Azure. 
 Em configurações do portal, pode ser trocado o idioma e a aparência do portal.  
 Em todos os serviços, são mostrados os serviços por categoria, que inclui, entre outras: </br> 
@@ -22,7 +22,7 @@ Em todos os serviços, são mostrados os serviços por categoria, que inclui, en
 Em todos os serviços/rede, pode ser acessado o **Bastions**, que é uma rede segura para fazer acesso às máquinas (Jump Server). </br>
 Os serviços em versão prévia são aqueles que estão começando a ser disponibilizados e testados, eles não têm SLA(acordo de nível de serviço)
 
-#### 2. Resumo do laboratório 2: Criando máquinas virtuais Azure 
+### 2. Resumo do laboratório 2: Criando máquinas virtuais Azure 
 
 Foi visto o tempo de inatividade para cada porcentagem no SLA (acordo de nível de serviço). Percebe-se que não há a possibilidade de 100% de disponibilidade do serviço. O cliente deve escolher o que melhor lhe atende. Ver figura abaixo:  </br> 
 
@@ -33,7 +33,7 @@ Ao criar uma máquina virtual, é necessário escolher a região, opções de di
 A interface conta com informações e dicas nos itens para auxiliar o usuário. </br>
 Foi mostrada a possibilidade de criar armazenamentos para redundância em local (LRS), em zonas (ZES), entre outros.  
 
-#### 3. Resumo do laboratório 3: Configurando uma instância de banco de dados Azure 
+### 3. Resumo do laboratório 3: Configurando uma instância de banco de dados Azure 
 **Tipos de serviços de nuvem Azure** </br>
 
 <ins> Infraestrutura como serviço (IaaS)</ins> </br>
@@ -69,18 +69,28 @@ Foi visto a criação de um banco de dados SQL. </br>
 Para a sua criação é necessário ir em *Página incial/Bancos de dados SQL/Criar Banco de Dados SQL*. </br>
 Para a criação de um banco de dados SQL é necessário criar um servidor e dizer qual vai ser o tipo de redundância de armazenamento do backup </br>
 
-- Armazenamento de backup com redundância local
-- Armazenamento de backup com redundância de zona 
-- Armazenamento de backup com redundância geográfica
+- Armazenamento de backup com redundância local 
+- Armazenamento de backup com redundância de zona
+- Armazenamento de backup com redundância geográfica 
+
+### 4. Resumo do laboratório 4: Construindo arquiteturas no Azure
+
+No laboratório foi mostrado sobre a replicação em regiões que são oferecidas pelo Azure. Exemplos: </br>
+
+- Brazil South: Data replication to the US
+- Brasil Southeast: Data replication to the Brazil South
+
+Foi explorado o site da Microsoft para visualizar as regiões e datacenters </br>
+Link para visualizar os datacenters da Microsoft: 
+- 🔎 [Microsoft Datacenters](https://datacenters.microsoft.com/globe/explore/)
+
+Foi criado o grupo de recursos em *Todos os serviços/grupo de recursos*. A região escolhida foi **(US) East Us**. 
+As **Marcações** servem para identificar o grupo de recursos. </br>
+Foi explicado sobre IAM (controle de acesso) e eventos. </br>
+Foi criada uma rede virtual na região **South America (Brasil South)**, que foi incluída no grupo de recursos criado. 
 
 
-
-  
-
-
-#### 4. Resumo do laboratório 4: Construindo arquiteturas no Azure
-
-#### 5. Resumo do laboratório 5: Consfigurando recursos e dimensionamentos em máquinas virtuais na Azure 
+### 5. Resumo do laboratório 5: Consfigurando recursos e dimensionamentos em máquinas virtuais na Azure 
 
 
 
