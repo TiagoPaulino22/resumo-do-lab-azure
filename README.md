@@ -154,7 +154,7 @@ O tipo de pool de hosts **Pessoal** é indicado para uma pessoa que mexa com um 
 </br>
 
 ### 🔎 Links úteis
-[Link para laboratórios no site da Microsoft](https://learn.microsoft.com/pt-br/training/)
+- [Link para laboratórios no site da Microsoft](https://learn.microsoft.com/pt-br/training/)
 
 
 
