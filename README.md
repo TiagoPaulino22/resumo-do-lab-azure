@@ -7,7 +7,7 @@
 [2. Resumo do laboratório 2: Criando máquinas virtuais Azure](#2.-Resumo-do-laboratório-2:-Criando-máquinas-virtuais-Azure)  </br>
 [3. Resumo do laboratório 3: Configurando uma instância de banco de dados Azure ](#3.-Resumo-do-laboratório-3:-Configurando-uma-instância-de-banco-de-dados-Azure-)</br>
 [4. Resumo do laboratório 4: Construindo Arquiteturas no Azure](#4.-Resumo-do-laboratório-4:-Construindo-arquiteturas-no-Azure)</br>
-[5. Resumo do laboratório 5: Consfigurando Recursos e Dimensionamentos em Máquinas Virtuais na Azure](#5.-Resumo-do-laboratório-5:-Consfigurando-recursos-e-dimensionamentos-em-máquinas-virtuais-na-Azure )</br>
+[5. Resumo do laboratório 5: Configurando Recursos e Dimensionamentos em Máquinas Virtuais na Azure](#5.-Resumo-do-laboratório-5:-Consfigurando-recursos-e-dimensionamentos-em-máquinas-virtuais-na-Azure )</br>
 
 
 ### 1. Resumo do laboratório 1: Localizando serviços por categoria
