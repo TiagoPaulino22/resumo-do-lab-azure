@@ -92,6 +92,86 @@ Foi criada uma rede virtual na região **South America (Brasil South)**, que foi
 
 ### 5. Resumo do laboratório 5: Consfigurando recursos e dimensionamentos em máquinas virtuais na Azure 
 
+<ins>**Criação de máquina virtual**</ins>  </br>
+
+<ins>Configuração básica</ins>  </br>
+Em *Assinatura/Grupo de recursos* foi utilizado o grupo de recursos criado no lab.4. </br>
+A região utilizada foi a **(US) East US 2**. </br>
+Em *Opções de disponibilidade*, entramos na configuração *Criar um conjunto de dimensionamentos de máquinas virtuais* e vimos algumas configurações de escala em *Adicionar uma condição de escala*, opção *Dimensionamento automático*. </br>
+Esse recurso permiti dimensionar a escalabilidade horizontal da nossa máquina virtual, configurando um número mínimo e máximo de instâncias e qual a porcentagem de uso da CPU para haver aumento e diminuição das instâncias.  </br>
+**Importante:** O valor padrão de duração da consulta é 10 min.  </br> 
+
+A opção de disponibilidade escolhida foi a *Nenhuma redundância infraestrutura necessária*. Assim, a primeira configuração ficou como mostrado abaixo. 
+
+<img src =  https://github.com/TiagoPaulino22/resumo-do-lab-azure/blob/main/imagens/vm1.PNG >
+
+*Desconto Spot do Azure* permite que os recursos da Azure sejam usados com um preço muito mais em conta, contudo, caso alguém queira usar esses recursos pagando o preço normal, os serviços são desabilitados e passados para a outra pessoa. </br>
+Foram mostrados alguns tamanhos de VM. O tamanho escolhido foi o **Standart_DS1_v2 – 2 vcpu, 3.1GiB**. </br>
+Foi configurado um usuário e senha.  </br>
+
+Em regras de portas de entrada foi selecionado *Permitir portas secionadas* e a porta de entrada selecionada foi a **RDP(3389)**. </br>
+O intuito da escolha da porta era pegar alertas, pois ela deixa a máquina virtual exposta para a internet.  Essa parte da configuração ficou mostrado abaixo:
+
+<img src =  https://github.com/TiagoPaulino22/resumo-do-lab-azure/blob/main/imagens/vm2.PNG >
+
+<ins>Configuração de disco</ins> </br>
+A parte de configuração de disco ficou como é mostrado na figura seguinte. </br>
+Deve-se ter cuidado e deixar a opção **Excluir com VM** selecionado. Assim, quando a vm for excluída, o disco também será, evitando custos adicionais. 
+
+<img src =  https://github.com/TiagoPaulino22/resumo-do-lab-azure/blob/main/imagens/vm3.PNG >
+
+<ins>Configuração de rede</ins> </br>
+A configuração de rede ficou como mostrado nas imagens seguintes. </br>
+
+<img src =  https://github.com/TiagoPaulino22/resumo-do-lab-azure/blob/main/imagens/vm4.PNG >
+<img src =  https://github.com/TiagoPaulino22/resumo-do-lab-azure/blob/main/imagens/vm5.PNG >
+
+<ins>Configuração de gerenciamento</ins> </br>
+Foi configurado o horário de desligamento automático e um e-mail de notificação.  </br>
+Não foi configurada a opção de backup para fins didáticos. Mas é importante de lembrar de habilitá-lo sempre. 
+
+<ins>Configuração de monitoramento</ins> </br>
+Os alertas não foram configurados. Mas é possível configurar regras de alertas baseados em diversas métricas, como porcentagem de CPU, memória disponível, entro outros. </br>
+A parte de monitoramento ficou como mostrado abaixo.
+
+<img src =  https://github.com/TiagoPaulino22/resumo-do-lab-azure/blob/main/imagens/vm6.PNG >
+
+<ins>Revisar + criar</ins> </br>
+Nessa opção é dada uma estimativa de custo de uso da máquina virtual por hora. </br>
+
+</br>
+
+<ins>**Criação de área de trabalho virtual** </ins>  </br>
+A criação da área de trabalho virtual é realizada em *Todos os serviços/Área de Trabalho Virtual Azure*. </br>
+
+<ins>Noções básicas</ins>  </br>
+A primeira etapa da configuração ficou como mostrado nas imagens abaixo. 
+O tipo de pool de hosts **Pessoal** é indicado para uma pessoa que mexa com um software específico. Caso contrário é indicado a opção **Em pool** (grupo).  
+
+<img src =  https://github.com/TiagoPaulino22/resumo-do-lab-azure/blob/main/imagens/atv1.PNG >
+<img src =  https://github.com/TiagoPaulino22/resumo-do-lab-azure/blob/main/imagens/atv2.PNG > 
+
+</br>
+
+### 🔎 Links úteis
+[Link para laboratórios no site da Microsoft](https://learn.microsoft.com/pt-br/training/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
